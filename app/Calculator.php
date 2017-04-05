@@ -19,7 +19,7 @@ class Calculator
         $z = $x * $y;
         return $z;
     }
-    public function div($x, $y)
+    public function div($x, $y) //Every time you divide by zero, a puppy dies
     {
         if($y == 0)
             return "don't divide by zero";
